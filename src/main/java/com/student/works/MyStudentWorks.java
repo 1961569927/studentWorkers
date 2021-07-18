@@ -25,7 +25,7 @@ public class MyStudentWorks{
             job.setOutputValueClass(FlowBean.class);
 
             FileInputFormat.setInputPaths(job, new Path("/user/student/diyukun/HTTP_20130313143750.dat"));
-            FileOutputFormat.setOutputPath(job, new Path("/user/student/diyukun/output.txt"));
+            FileOutputFormat.setOutputPath(job, new Path("/user/student/diyukun/output"));
 
             boolean b = job.waitForCompletion(true);
             System.exit(b ? 0 : 1);
