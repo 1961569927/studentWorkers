@@ -1,4 +1,4 @@
-package com.student.works;
+package com.student.works.mapreduce;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;

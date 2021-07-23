@@ -34,7 +34,7 @@
                     <archive>
                         <manifest>
                             <!--指定入口文件的位置-->
-                            <mainClass>com.student.works.MyStudentWorks</mainClass>
+                            <mainClass>com.student.works.mapreduce.MyStudentWorks</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
