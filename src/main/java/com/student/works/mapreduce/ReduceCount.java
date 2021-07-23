@@ -18,7 +18,7 @@ public class ReduceCount extends Reducer<Text, FlowBean, Text, FlowBean> {
         }
         //封装到最终的Bean中
         FlowBean fianlBean = new FlowBean(sum_upFlow, sum_downFlow);
-        //输出
+        //输出//这个是测试
         context.write(key, fianlBean);
     }
 }
